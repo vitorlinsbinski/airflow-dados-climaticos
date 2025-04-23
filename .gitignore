@@ -1,0 +1,33 @@
+# Diretórios do Airflow
+airflow.db
+airflow.cfg
+unittests.cfg
+webserver_config.py
+logs/
+__pycache__/
+
+# Arquivos de PID e outros temporários
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# Ambiente virtual
+venv/
+.env/
+*.env
+
+# Arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Outros
+*.log
