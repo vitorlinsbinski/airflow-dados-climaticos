@@ -90,3 +90,6 @@ key = 'YOUR-API-KEY'
 ```bash
 airflow standalone
 ```
+
+### 7. Data Pipeline Screenshot
+![Airflow Data Pipeline Screenshot](./assets/airflow-screenshot.png)
