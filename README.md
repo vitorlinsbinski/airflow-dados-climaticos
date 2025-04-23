@@ -71,11 +71,8 @@ source venv/bin/activate  # Linux/macOS
 
 ### 3. 📦 Install dependencies
 ```bash
-pip install -r requirements.txt
-```
-If there's no requirements.txt, install manually:
-```bash
-pip install apache-airflow pandas pendulum
+pip install pandas pendulum
+pip install "apache-airflow==2.10.5" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.5/constraints-3.9.txt"
 ```
 
 ### 4. 🌍 Set the AIRFLOW_HOME environment variable
