@@ -59,8 +59,8 @@ Follow the steps below to run the project locally with Apache Airflow:
 ### 1. 🖥️ Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/vitorlinsbinski/airflow-dados-climaticos.git
+cd airflow-dados-climaticos
 ```
 
 ### 2. 🐍 Create and activate a virtual environment 
